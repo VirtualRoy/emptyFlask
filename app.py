@@ -13,6 +13,6 @@ def mainPage():
 
 if __name__ == "__main__":  # is dit bestand main proces
   app.run(  # Starts the site
-      debug=True,
-      host='0.0.0.0'  # req. for repl
+      debug=True, # Restarts on code-change
+      host='0.0.0.0' # Listen on 0.0.0.0
   )
